@@ -1,0 +1,207 @@
+Evvil | Cleared logs
+Eli | :tada: <@524701112616615936> Leveled up to level ****3**** :tada:
+Evvil | 
+Rubik_Tech | now what?
+DecDuck | boom
+DecDuck | download, extract, token, run
+Rubik_Tech | bruh stop beaning my background
+Rubik_Tech | how did you even do that?
+Rubik_Tech | remotly?
+DecDuck | no, at lunch
+Rubik_Tech | I only noticed now
+DecDuck | ha lol
+Rubik_Tech | so what do I do I've unziped it
+Rubik_Tech | <@!524701112616615936> what do I do now?
+DecDuck | code it
+DecDuck | oh and btw
+DecDuck | ge beaned
+DecDuck | get beaned
+Evvil | 
+Rubik_Tech | telllll meeee
+Rubik_Tech | <@!524701112616615936>
+Rubik_Tech | tell me
+DecDuck | i meant vscode it
+DecDuck | get beaned
+Evvil | 
+Rubik_Tech | yeah
+Rubik_Tech | I have
+Rubik_Tech | how do I add it
+DecDuck | now auth it
+Rubik_Tech | how
+DecDuck | auth.jsonm
+Rubik_Tech | how do I add it to that
+DecDuck | ?
+DecDuck | go to auth.json
+DecDuck | get bot token
+DecDuck | add to auth.json
+Rubik_Tech | k
+Rubik_Tech | but how do I decide what it does
+DecDuck | click copy
+DecDuck | and paste
+Rubik_Tech | k
+Eli | :tada: <@761847097463930880> Leveled up to level ****5**** :tada:
+Rubik_Tech | now what
+Rubik_Tech | what does that do?
+DecDuck | start it
+DecDuck | 
+Rubik_Tech | also I can't find the place to node it
+DecDuck | new terminal it
+Rubik_Tech | k
+Rubik_Tech | my terminal said this
+Rubik_Tech | ode : The term 'node' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path 
+was included, verify that the path is correct and try again.
+At line:1 char:1
++ node bot.js
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (node:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+DecDuck | download it
+Rubik_Tech | k
+Rubik_Tech | give me link
+DecDuck | 
+DecDuck | https://nodejs.org/en/download/
+Rubik_Tech | k its installing
+Rubik_Tech | I want to change what it does
+DecDuck | you know this line
+Rubik_Tech | k what do I change
+Rubik_Tech | I want to make it send a message
+DecDuck | this tells you who sent it, where it was sent, what was sent
+DecDuck | so you go:
+DecDuck | 
+Rubik_Tech | ?
+Rubik_Tech | k
+DecDuck | actually
+Rubik_Tech | now what is the prefix or command to call it
+DecDuck | 
+DecDuck | 
+Rubik_Tech | k
+DecDuck | change the *() with prefix
+DecDuck | and put in a if statement
+Rubik_Tech | now, what I want it to do
+DecDuck | for example
+DecDuck | yes?
+DecDuck | the ! means not btw
+Rubik_Tech | is check what the user said after the command
+DecDuck | so that would be the message variable
+Rubik_Tech | and store it somewhere
+Rubik_Tech | to call back later
+DecDuck | how store it?
+Rubik_Tech | and print
+Rubik_Tech | like assign a variable to it
+Rubik_Tech | how do I do that
+Rubik_Tech | so basically you would be like *() hello and it would assign a variable to hello
+DecDuck | 
+DecDuck | to declare a variable you have to use: var (name) = (value)
+Rubik_Tech | also when I try to node it says this
+Rubik_Tech | throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\Dominic\Documents\GitHub\skyblockadventure\bot.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+DecDuck | where is bot.js?
+DecDuck | where are you programming
+Rubik_Tech | in visual studio code
+DecDuck | which folder
+Rubik_Tech | idk
+DecDuck | gimme a screen sot
+Rubik_Tech | of what I just oepned the github thingy
+DecDuck | no of vscode
+Rubik_Tech | ???
+DecDuck | visual studio code
+Rubik_Tech | ik but idk what u mean by where I am coding
+DecDuck | **v**isual **s**tudio code
+Rubik_Tech | I opened the github file
+Rubik_Tech | into vscode
+DecDuck | did you use
+Evvil | 
+Rubik_Tech | yes
+Rubik_Tech | I used that
+DecDuck | then you have to open that
+DecDuck | just give me a screen shot of vscode
+Rubik_Tech | k
+Rubik_Tech | how do I scshot
+DecDuck | windows + shift + s
+DecDuck | and select all
+DecDuck | its copied to ur clipboard so just paste
+Rubik_Tech | 
+DecDuck | ok, you need to do ctrl + s
+DecDuck | to save
+DecDuck | and type in the terminal: cd bottemplate
+Rubik_Tech | k
+DecDuck | and then node bot.js
+Rubik_Tech | now it says this
+Rubik_Tech | old = copy(client.servers[_data.guild_id].members[_data.user.id]);
+                                                                         ^
+
+TypeError: Cannot read property '775235184152543261' of undefined
+    at DiscordClient.handleWSMessage (C:\Users\Dominic\Documents\GitHub\skyblockadventure\bottemplate\node_modules\discord.io\lib\index.js:1906:53)
+    at WebSocket.emit (events.js:315:20)
+    at Receiver.ontext (C:\Users\Dominic\Documents\GitHub\skyblockadventure\bottemplate\node_modules\ws\lib\WebSocket.js:841:10)
+    at C:\Users\Dominic\Documents\GitHub\skyblockadventure\bottemplate\node_modules\ws\lib\Receiver.js:536:18
+    at Receiver.applyExtensions (C:\Users\Dominic\Documents\GitHub\skyblockadventure\bottemplate\node_modules\ws\lib\Receiver.js:371:5)
+    at C:\Users\Dominic\Documents\GitHub\skyblockadventure\bottemplate\node_modules\ws\lib\Receiver.js:508:14
+    at Receiver.flush (C:\Users\Dominic\Documents\GitHub\skyblockadventure\bottemplate\node_modules\ws\lib\Receiver.js:347:3)
+    at Receiver.finish (C:\Users\Dominic\Documents\GitHub\skyblockadventure\bottemplate\node_modules\ws\lib\Receiver.js:541:12)
+    at Receiver.expectHandler (C:\Users\Dominic\Documents\GitHub\skyblockadventure\bottemplate\node_modules\ws\lib\Receiver.js:499:31)
+    at Receiver.add (C:\Users\Dominic\Documents\GitHub\skyblockadventure\bottemplate\node_modules\ws\lib\Receiver.js:103:24)
+DecDuck | well your bot is online
+Rubik_Tech | ok
+DecDuck | just ctrl + c
+DecDuck | and run it again
+Evvil | 
+Eli | :tada: <@524701112616615936> Leveled up to level ****4**** :tada:
+Rubik_Tech | k it works now
+Rubik_Tech | <@!524701112616615936> so how do I see what the users say after the command and assign a variable to it
+Rubik_Tech | <@!524701112616615936> pls help me
+DecDuck | 
+Rubik_Tech | where is that
+DecDuck | in the bot.on
+Rubik_Tech | ?
+DecDuck | 
+DecDuck | between the curly brackets
+Rubik_Tech | yeah
+Rubik_Tech | no its ot
+DecDuck | my role should be called god programmer
+Rubik_Tech | *not
+DecDuck | *not
+Rubik_Tech | look at my screen shot its now there
+Rubik_Tech | brb
+DecDuck | where
+DecDuck | <@!761847097463930880>
+DecDuck | <@!761847097463930880>
+DecDuck | <@!761847097463930880>
+DecDuck | <@!761847097463930880>
+DecDuck | <@!761847097463930880>
+DecDuck | <@!761847097463930880>
+DecDuck | <@!761847097463930880>
+DecDuck | <@!761847097463930880>
+DecDuck | <@!761847097463930880>
+DecDuck | <@!761847097463930880>
+Rubik_Tech | ight I'm back
+Rubik_Tech | so did u look at my screenshit
+Rubik_Tech | *shot
+Rubik_Tech | <@!524701112616615936>
+Rubik_Tech | help me
+Rubik_Tech | pls
+Rubik_Tech | pls
+Rubik_Tech | pls
+Rubik_Tech | <@!524701112616615936>
+Rubik_Tech | v
+Rubik_Tech | <@!524701112616615936>
+Rubik_Tech | <@!524701112616615936> <@!524701112616615936>
+Rubik_Tech | <@!524701112616615936>
+Rubik_Tech | <@!524701112616615936>
+Rubik_Tech | <@!524701112616615936>
+Rubik_Tech | <@!524701112616615936>
+Rubik_Tech | <@!524701112616615936>
+Rubik_Tech | <@!524701112616615936>
+Rubik_Tech | <@!524701112616615936>
+Rubik_Tech | <@!524701112616615936>
+Rubik_Tech | <@!524701112616615936>
+Rubik_Tech | <@!524701112616615936>

@@ -1,0 +1,12 @@
+{
+    "name": "Alvie",
+    "version": "1.0.0",
+    "description": "For when no-one is online",
+    "main": "bot.js",
+    "author": "DecDuck",
+    "dependencies": {
+        "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+        "node-wit": "^6.0.0",
+        "winston": "^3.3.3"
+    }
+}
