@@ -5,8 +5,14 @@
     "main": "bot.js",
     "author": "DecDuck",
     "dependencies": {
+        "capitalize": "^2.0.3",
         "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+        "g-i-s": "^2.1.6",
+        "google-search-results-nodejs": "^2.0.1",
+        "jsearch": "^1.0.0",
         "node-wit": "^6.0.0",
-        "winston": "^3.3.3"
+        "serp": "^2.1.0",
+        "winston": "^3.3.3",
+        "word-definition": "^2.1.6"
     }
 }
