@@ -8,7 +8,7 @@ var capitalize = require('capitalize')
 const {Wit, log} = require('node-wit');
 const {interactive} = require('node-wit');
 const client = new Wit({
-    accessToken: "4U2TAIKBKT5456SX5GKXHI6HEBNKRJQF"
+    accessToken: ""
 })
 // Configure logger settings
 logger.remove(logger.transports.Console);
